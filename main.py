@@ -10,9 +10,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load models
-diabetes_model = pickle.load(open('C:/Users/Yash/OneDrive/Desktop/DiseasepredictionApp/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/Yash/OneDrive/Desktop/DiseasepredictionApp/heart_disease_model.sav', 'rb'))
-parkison_model = pickle.load(open('C:/Users/Yash/OneDrive/Desktop/DiseasepredictionApp/parkinsons_data.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+parkison_model = pickle.load(open('parkinsons_data.sav', 'rb'))
 
 # Sidebar menu
 with st.sidebar:
